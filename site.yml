@@ -4,3 +4,5 @@
   roles:
         - { role: vim, tags: ['vim'] }
         - { role: mc, tags: ['mc'] }
+---
+# test cla
