@@ -4,3 +4,9 @@
   roles:
         - { role: vim, tags: ['vim'] }
         - { role: mc, tags: ['mc'] }
+---
+- hosts: all
+  become: true
+  roles:
+        - { role: vim, tags: ['vim'] }
+        - { role: mc, tags: ['mc'] }
